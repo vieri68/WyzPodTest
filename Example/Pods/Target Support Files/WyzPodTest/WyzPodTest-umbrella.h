@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Header.h"
 #import "TestLog.h"
 
 FOUNDATION_EXPORT double WyzPodTestVersionNumber;

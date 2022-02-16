@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064A75D3B340733E5657C74FE6125D3E /* WyzPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6609A9FCD110F7D5B030D3E8140F9B /* WyzPodTest-dummy.m */; };
 		0C4E2FA687080B530F2A240F4766E70E /* Pods-WyzPodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF36D06484F7C73F3886C2951A8340 /* Pods-WyzPodTest_Tests-dummy.m */; };
-		15D6398F7FF5125EA080CAC24863DD25 /* WyzPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983AE9ACC120C51ED8054C674C7474F /* WyzPodTest-dummy.m */; };
 		192CB34C8B7F89C505EDD610A35B1DE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2EDE12001BAFC2652C443C8AA9927E84 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF15A0EEC0A55D1F8ACB0A10E65B07 /* TestLog.m */; };
+		2207D90E5F4D7278CFC350CD719BAE08 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1EAC10AE6D3031409457D6AE35DAD /* TestLog.m */; };
+		2CCB56C4E911B9CF0DAB44DFC32D3FCB /* WyzPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5181A925CD100759A71F234B4DDECABC /* WyzPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A37DAFAD04D68AAC77DE99DEC9FF9BB /* Pods-WyzPodTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7165149D5107417F87760EB45660076 /* Pods-WyzPodTest_Example-dummy.m */; };
+		6D6B5C78D90BBEDFE11560AF585451F9 /* TestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3605197A50C05FD8C4B80A5A760A6A /* TestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7082499CDFF5F41144E8B4465733BDD9 /* Pods-WyzPodTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BD1F29C16BCA60800A6C955FEA3C11 /* Pods-WyzPodTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F4F69CAD474385DC8EC1B600595A238 /* WyzPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3D5DD6AB92973A4BDC6E96AA047875 /* WyzPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DDBC7EDBE7ED497CCE41B9E302E93AA /* TestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6B3FFB762E8A862A77238C9C20DCE9 /* TestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2D71E3AF47546AAEC6821A9D40F4AA3 /* Pods-WyzPodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E0F26B1BB2615B467347EF8AB0A05B /* Pods-WyzPodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9B0FC93208FCAC4A4B45797A1FBB688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D375AD9F1DA1595CDF5811ADE18B78ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D65789FD2C6C9182CB1EBC551033F7A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF86313C35FE3290B561535D1B111F42 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = F6732768999AA131ECDBC8B2A9CB1595 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,39 +40,40 @@
 
 /* Begin PBXFileReference section */
 		05025820298F6392042F2CD0B304610D /* Pods-WyzPodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WyzPodTest_Tests.modulemap"; sourceTree = "<group>"; };
-		2859C9BEF1AA58D9C58E0051FE94C6E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2F3D5DD6AB92973A4BDC6E96AA047875 /* WyzPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyzPodTest-umbrella.h"; sourceTree = "<group>"; };
-		3983AE9ACC120C51ED8054C674C7474F /* WyzPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WyzPodTest-dummy.m"; sourceTree = "<group>"; };
 		3F23FD97B30E3E7A227229942FC095E6 /* Pods-WyzPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyzPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		44C690CF25771CFA3D4C7C0212476C7A /* Pods_WyzPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyzPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3605197A50C05FD8C4B80A5A760A6A /* TestLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestLog.h; path = WyzPodTest/Classes/TestLog.h; sourceTree = "<group>"; };
+		44C690CF25771CFA3D4C7C0212476C7A /* Pods_WyzPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WyzPodTest_Example.framework; path = "Pods-WyzPodTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA0638CF8D7295C1B808B16F9D192A2 /* WyzPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyzPodTest.debug.xcconfig; sourceTree = "<group>"; };
 		4D2C54981876630347859D8709419F4A /* Pods-WyzPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WyzPodTest_Example.modulemap"; sourceTree = "<group>"; };
-		5264F1300A4B5FDB9DBD59B3134BFE06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		52E3763502D0790B0609FF39B1F7CE36 /* WyzPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WyzPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6CFF15A0EEC0A55D1F8ACB0A10E65B07 /* TestLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestLog.m; path = WyzPodTest/Classes/TestLog.m; sourceTree = "<group>"; };
+		5181A925CD100759A71F234B4DDECABC /* WyzPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyzPodTest-umbrella.h"; sourceTree = "<group>"; };
+		686296DBAFE737950C9C2BADEECA9084 /* WyzPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WyzPodTest.modulemap; sourceTree = "<group>"; };
+		6F6609A9FCD110F7D5B030D3E8140F9B /* WyzPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WyzPodTest-dummy.m"; sourceTree = "<group>"; };
 		6F6FC26767BC0D563CBF8971FDDB1EAC /* Pods-WyzPodTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyzPodTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		775DC0FC0F118E4D3459ADF51FCF76E6 /* Pods-WyzPodTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WyzPodTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DF36F16121C00408F333A40EEE4B86D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7ECF36D06484F7C73F3886C2951A8340 /* Pods-WyzPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WyzPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		80BD1F29C16BCA60800A6C955FEA3C11 /* Pods-WyzPodTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WyzPodTest_Example-umbrella.h"; sourceTree = "<group>"; };
-		8508BA084CE99A633B5455AE50D1DDD3 /* WyzPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyzPodTest.release.xcconfig; sourceTree = "<group>"; };
+		8AC1EAC10AE6D3031409457D6AE35DAD /* TestLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestLog.m; path = WyzPodTest/Classes/TestLog.m; sourceTree = "<group>"; };
 		92EE7A36FC499C83E4BDAD47969E28B7 /* Pods-WyzPodTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WyzPodTest_Example-frameworks.sh"; sourceTree = "<group>"; };
-		944EBD7B4CE7A3A1E7D399352F6E76EB /* WyzPodTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WyzPodTest-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A283E749F9252B1537203B94AF5278E6 /* WyzPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyzPodTest-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4BDF166BBB7607E86EC83EB401F58CD /* Pods-WyzPodTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyzPodTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B22EE748679F8EF126B8E65FD240C42E /* Pods-WyzPodTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyzPodTest_Tests-Info.plist"; sourceTree = "<group>"; };
-		BA31DD8B79EF6CA915CA190F2D6F68E1 /* WyzPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyzPodTest.debug.xcconfig; sourceTree = "<group>"; };
+		B9F321020BB13E440414C2020064431A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BFE05FF6C4C93443DAE9E14604435081 /* WyzPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyzPodTest-prefix.pch"; sourceTree = "<group>"; };
 		C0E0F26B1BB2615B467347EF8AB0A05B /* Pods-WyzPodTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WyzPodTest_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CBE86AFCB6DCF26FD22C39D9115A7581 /* Pods-WyzPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyzPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CC9339DE40C5EC98CFF99851F4075744 /* WyzPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WyzPodTest.modulemap; sourceTree = "<group>"; };
 		D8CB13D6B887AAD510CF24F636B3E847 /* Pods-WyzPodTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WyzPodTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E2811983A789C2B8E7B405439EC182EA /* Pods_WyzPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyzPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2811983A789C2B8E7B405439EC182EA /* Pods_WyzPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WyzPodTest_Tests.framework; path = "Pods-WyzPodTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7165149D5107417F87760EB45660076 /* Pods-WyzPodTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WyzPodTest_Example-dummy.m"; sourceTree = "<group>"; };
 		E9523CA6B51079BA519B9F97626BBB06 /* Pods-WyzPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyzPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EAD44D9DB4023F249A99DE297C920AD6 /* WyzPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WyzPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF6B3FFB762E8A862A77238C9C20DCE9 /* TestLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestLog.h; path = WyzPodTest/Classes/TestLog.h; sourceTree = "<group>"; };
+		EAD44D9DB4023F249A99DE297C920AD6 /* WyzPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WyzPodTest.framework; path = WyzPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03FBB13A54A959A34986B516C34C71A /* Pods-WyzPodTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyzPodTest_Example-Info.plist"; sourceTree = "<group>"; };
+		F26313BFB6A381AF49095F59FD4B488E /* WyzPodTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WyzPodTest-Info.plist"; sourceTree = "<group>"; };
+		F6732768999AA131ECDBC8B2A9CB1595 /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Header.h; path = WyzPodTest/Classes/Header.h; sourceTree = "<group>"; };
 		FA196C0F7489955165B3EF576B2CDABE /* Pods-WyzPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyzPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD829935616836587C421ED050F8A5B /* WyzPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WyzPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD26540358E9EA538A626A9CF75E1661 /* WyzPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyzPodTest.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B4831A49F3C3838E2492CFDBF82DA60 /* Frameworks */ = {
+		A83C150C099C505D6BF7B458609BD805 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65789FD2C6C9182CB1EBC551033F7A5 /* Foundation.framework in Frameworks */,
+				A9B0FC93208FCAC4A4B45797A1FBB688 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,18 +129,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9157BA166A9F77938393462BE4BE2BBD /* WyzPodTest */ = {
-			isa = PBXGroup;
-			children = (
-				EF6B3FFB762E8A862A77238C9C20DCE9 /* TestLog.h */,
-				6CFF15A0EEC0A55D1F8ACB0A10E65B07 /* TestLog.m */,
-				F3B22310EA216AA6FBD17C2D1FF9B5B6 /* Pod */,
-				EBC623A7AF446BD6DE84A79B5A5C2C22 /* Support Files */,
-			);
-			name = WyzPodTest;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		9F865330F54956A252784B7AD4A78894 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,10 +139,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A26D6270ED6ACD5C2CEAE613E1227F37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				686296DBAFE737950C9C2BADEECA9084 /* WyzPodTest.modulemap */,
+				6F6609A9FCD110F7D5B030D3E8140F9B /* WyzPodTest-dummy.m */,
+				F26313BFB6A381AF49095F59FD4B488E /* WyzPodTest-Info.plist */,
+				BFE05FF6C4C93443DAE9E14604435081 /* WyzPodTest-prefix.pch */,
+				5181A925CD100759A71F234B4DDECABC /* WyzPodTest-umbrella.h */,
+				4AA0638CF8D7295C1B808B16F9D192A2 /* WyzPodTest.debug.xcconfig */,
+				FD26540358E9EA538A626A9CF75E1661 /* WyzPodTest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WyzPodTest";
+			sourceTree = "<group>";
+		};
 		A7D513B66577856B5185917EA0EE5E1B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9157BA166A9F77938393462BE4BE2BBD /* WyzPodTest */,
+				B654CEBB556144A593A2F0F65FDEF390 /* WyzPodTest */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -164,6 +169,19 @@
 				B6CB3CAA618CA946423D39F35D5797D5 /* Pods-WyzPodTest_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B654CEBB556144A593A2F0F65FDEF390 /* WyzPodTest */ = {
+			isa = PBXGroup;
+			children = (
+				F6732768999AA131ECDBC8B2A9CB1595 /* Header.h */,
+				3F3605197A50C05FD8C4B80A5A760A6A /* TestLog.h */,
+				8AC1EAC10AE6D3031409457D6AE35DAD /* TestLog.m */,
+				E6223F839F9B9F587A95E3796026A6C3 /* Pod */,
+				A26D6270ED6ACD5C2CEAE613E1227F37 /* Support Files */,
+			);
+			name = WyzPodTest;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B6CB3CAA618CA946423D39F35D5797D5 /* Pods-WyzPodTest_Tests */ = {
@@ -201,27 +219,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBC623A7AF446BD6DE84A79B5A5C2C22 /* Support Files */ = {
+		E6223F839F9B9F587A95E3796026A6C3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CC9339DE40C5EC98CFF99851F4075744 /* WyzPodTest.modulemap */,
-				3983AE9ACC120C51ED8054C674C7474F /* WyzPodTest-dummy.m */,
-				944EBD7B4CE7A3A1E7D399352F6E76EB /* WyzPodTest-Info.plist */,
-				A283E749F9252B1537203B94AF5278E6 /* WyzPodTest-prefix.pch */,
-				2F3D5DD6AB92973A4BDC6E96AA047875 /* WyzPodTest-umbrella.h */,
-				BA31DD8B79EF6CA915CA190F2D6F68E1 /* WyzPodTest.debug.xcconfig */,
-				8508BA084CE99A633B5455AE50D1DDD3 /* WyzPodTest.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WyzPodTest";
-			sourceTree = "<group>";
-		};
-		F3B22310EA216AA6FBD17C2D1FF9B5B6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5264F1300A4B5FDB9DBD59B3134BFE06 /* LICENSE */,
-				2859C9BEF1AA58D9C58E0051FE94C6E5 /* README.md */,
-				52E3763502D0790B0609FF39B1F7CE36 /* WyzPodTest.podspec */,
+				B9F321020BB13E440414C2020064431A /* LICENSE */,
+				7DF36F16121C00408F333A40EEE4B86D /* README.md */,
+				FBD829935616836587C421ED050F8A5B /* WyzPodTest.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -229,15 +232,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		04F2669F79273F736C8B68F1B0207D33 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DDBC7EDBE7ED497CCE41B9E302E93AA /* TestLog.h in Headers */,
-				8F4F69CAD474385DC8EC1B600595A238 /* WyzPodTest-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13FFA7C8B9D8F51C93653AEF13A15620 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,17 +248,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB73DFE99EE716F2DB81981ABFE6E16E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF86313C35FE3290B561535D1B111F42 /* Header.h in Headers */,
+				6D6B5C78D90BBEDFE11560AF585451F9 /* TestLog.h in Headers */,
+				2CCB56C4E911B9CF0DAB44DFC32D3FCB /* WyzPodTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1332D7B2465279ABAB0A0DB9DDA89C99 /* WyzPodTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B535D9D626F7C86B90FB8F72FFC736C /* Build configuration list for PBXNativeTarget "WyzPodTest" */;
+			buildConfigurationList = F5652FB959EC99C73EED2A727A732671 /* Build configuration list for PBXNativeTarget "WyzPodTest" */;
 			buildPhases = (
-				04F2669F79273F736C8B68F1B0207D33 /* Headers */,
-				09F6DB06CF50C52C4B9F17A3D320CA76 /* Sources */,
-				5B4831A49F3C3838E2492CFDBF82DA60 /* Frameworks */,
-				C8684AD35FEE424D8CA2A3B188FF3BEE /* Resources */,
+				CB73DFE99EE716F2DB81981ABFE6E16E /* Headers */,
+				99619DEB0FB096B6DF87D7E2A1778AB3 /* Sources */,
+				A83C150C099C505D6BF7B458609BD805 /* Frameworks */,
+				2CD90B5D0629364AA8366F945567B022 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,6 +347,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2CD90B5D0629364AA8366F945567B022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A7DAFC70FA6F5FE6EE2A496A35D7FC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,25 +368,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8684AD35FEE424D8CA2A3B188FF3BEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09F6DB06CF50C52C4B9F17A3D320CA76 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2EDE12001BAFC2652C443C8AA9927E84 /* TestLog.m in Sources */,
-				15D6398F7FF5125EA080CAC24863DD25 /* WyzPodTest-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		707265DDB41F0D2660D6ABB89FC79FF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,6 +384,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C4E2FA687080B530F2A240F4766E70E /* Pods-WyzPodTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99619DEB0FB096B6DF87D7E2A1778AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2207D90E5F4D7278CFC350CD719BAE08 /* TestLog.m in Sources */,
+				064A75D3B340733E5657C74FE6125D3E /* WyzPodTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,39 +513,9 @@
 			};
 			name = Release;
 		};
-		5DE9E5465F773FE0AA0CC231F50E6539 /* Debug */ = {
+		662715E5B0298B6F39B7418BF2E8A252 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA31DD8B79EF6CA915CA190F2D6F68E1 /* WyzPodTest.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WyzPodTest/WyzPodTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WyzPodTest/WyzPodTest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WyzPodTest/WyzPodTest.modulemap";
-				PRODUCT_MODULE_NAME = WyzPodTest;
-				PRODUCT_NAME = WyzPodTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		834DFE93555BCD63379279B9D2A0A68C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8508BA084CE99A633B5455AE50D1DDD3 /* WyzPodTest.release.xcconfig */;
+			baseConfigurationReference = FD26540358E9EA538A626A9CF75E1661 /* WyzPodTest.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -602,6 +576,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		A8FF0FEAE5B4748479DBA7021B33DC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA0638CF8D7295C1B808B16F9D192A2 /* WyzPodTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WyzPodTest/WyzPodTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WyzPodTest/WyzPodTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WyzPodTest/WyzPodTest.modulemap";
+				PRODUCT_MODULE_NAME = WyzPodTest;
+				PRODUCT_NAME = WyzPodTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		C2F49F5593A4F06A435CF7D4E7FEA9BC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -690,7 +694,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -731,15 +736,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B535D9D626F7C86B90FB8F72FFC736C /* Build configuration list for PBXNativeTarget "WyzPodTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5DE9E5465F773FE0AA0CC231F50E6539 /* Debug */,
-				834DFE93555BCD63379279B9D2A0A68C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1755A4910F172C772F1AD737AC781E4F /* Build configuration list for PBXNativeTarget "Pods-WyzPodTest_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -763,6 +759,15 @@
 			buildConfigurations = (
 				C2F49F5593A4F06A435CF7D4E7FEA9BC /* Debug */,
 				9CBEFCB105E569C784E5111B3A309B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5652FB959EC99C73EED2A727A732671 /* Build configuration list for PBXNativeTarget "WyzPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FF0FEAE5B4748479DBA7021B33DC4D /* Debug */,
+				662715E5B0298B6F39B7418BF2E8A252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

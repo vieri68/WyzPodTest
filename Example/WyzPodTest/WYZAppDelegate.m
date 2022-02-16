@@ -7,14 +7,14 @@
 //
 
 #import "WYZAppDelegate.h"
-#import "TestLog.h"
+#import "Header.h"
 @implementation WYZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     TestLog *log = [TestLog new];
-    [log showLog:@"hahha"];
+    [log showLog:@"hahheeea"];
     return YES;
 }
 

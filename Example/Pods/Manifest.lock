@@ -1,5 +1,5 @@
 PODS:
-  - WyzPodTest (0.1.0)
+  - WyzPodTest (1.0.0)
 
 DEPENDENCIES:
   - WyzPodTest (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WyzPodTest: a88bfd22fb5ecb6aa57d38a727070db8adb3a365
+  WyzPodTest: 9dc9d448a2c671d4f6c28be52181bde61de4783b
 
 PODFILE CHECKSUM: 4ef242eb0994639b6e4aef02ba02d5f82d942824
 
