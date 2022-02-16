@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TestLog.h"
 
 FOUNDATION_EXPORT double WyzPodTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char WyzPodTestVersionString[];
