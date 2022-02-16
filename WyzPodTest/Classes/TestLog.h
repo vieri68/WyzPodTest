@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TestLog : NSObject
 
+- (void)showLog:(NSString *)log;
 @end
 
 NS_ASSUME_NONNULL_END

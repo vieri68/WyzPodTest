@@ -9,4 +9,7 @@
 
 @implementation TestLog
 
+- (void)showLog:(NSString *)log {
+    NSLog(@"输出了日志:%@", log);
+}
 @end

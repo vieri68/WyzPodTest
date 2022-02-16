@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WyzPodTest'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of WyzPodTest.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/vieri/WyzPodTest'
+  s.homepage         = 'https://github.com/vieri68/WyzPodTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'vieri' => 'vieri.wang@tapque.com' }
-  s.source           = { :git => 'https://github.com/vieri/WyzPodTest.git', :tag => s.version.to_s }
+  s.author           = { 'vieri68' => 'wangvieri@126.com' }
+  s.source           = { :git => 'https://github.com/vieri68/WyzPodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
