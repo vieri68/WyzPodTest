@@ -1,0 +1,16 @@
+PODS:
+  - WyzPodTest (0.1.0)
+
+DEPENDENCIES:
+  - WyzPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  WyzPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WyzPodTest: a88bfd22fb5ecb6aa57d38a727070db8adb3a365
+
+PODFILE CHECKSUM: 4ef242eb0994639b6e4aef02ba02d5f82d942824
+
+COCOAPODS: 1.10.0

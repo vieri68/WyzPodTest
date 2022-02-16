@@ -1,0 +1,6 @@
+framework module WyzPodTest {
+  umbrella header "WyzPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

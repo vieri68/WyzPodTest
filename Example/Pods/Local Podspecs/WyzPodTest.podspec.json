@@ -1,0 +1,22 @@
+{
+  "name": "WyzPodTest",
+  "version": "0.1.0",
+  "summary": "A short description of WyzPodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vieri/WyzPodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vieri": "vieri.wang@tapque.com"
+  },
+  "source": {
+    "git": "https://github.com/vieri/WyzPodTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WyzPodTest/Classes/**/*"
+}

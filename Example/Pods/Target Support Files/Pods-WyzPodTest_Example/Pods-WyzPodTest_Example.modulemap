@@ -1,0 +1,6 @@
+framework module Pods_WyzPodTest_Example {
+  umbrella header "Pods-WyzPodTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
