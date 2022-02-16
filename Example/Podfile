@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WyzPodTest_Example' do
+  pod 'WyzPodTest', :path => '../'
+
+  target 'WyzPodTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
