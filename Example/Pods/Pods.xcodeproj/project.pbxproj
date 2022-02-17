@@ -7,89 +7,201 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		064A75D3B340733E5657C74FE6125D3E /* WyzPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6609A9FCD110F7D5B030D3E8140F9B /* WyzPodTest-dummy.m */; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C4E2FA687080B530F2A240F4766E70E /* Pods-WyzPodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF36D06484F7C73F3886C2951A8340 /* Pods-WyzPodTest_Tests-dummy.m */; };
-		192CB34C8B7F89C505EDD610A35B1DE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2207D90E5F4D7278CFC350CD719BAE08 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1EAC10AE6D3031409457D6AE35DAD /* TestLog.m */; };
-		2CCB56C4E911B9CF0DAB44DFC32D3FCB /* WyzPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5181A925CD100759A71F234B4DDECABC /* WyzPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A37DAFAD04D68AAC77DE99DEC9FF9BB /* Pods-WyzPodTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7165149D5107417F87760EB45660076 /* Pods-WyzPodTest_Example-dummy.m */; };
-		6D6B5C78D90BBEDFE11560AF585451F9 /* TestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3605197A50C05FD8C4B80A5A760A6A /* TestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7082499CDFF5F41144E8B4465733BDD9 /* Pods-WyzPodTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BD1F29C16BCA60800A6C955FEA3C11 /* Pods-WyzPodTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		114D645E02351D9604864B9EFA5EACA3 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C4210D954BB4FFA4D5081C2B3CD451 /* TestLog.m */; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37DB85787C014B2DD7CE7DC3D7CCF475 /* TestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = EF447163DE3571292DCBEF1CF5CCA03E /* TestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39664BE027BDE80D00AF8919 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39664BDF27BDE80D00AF8919 /* Images.xcassets */; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48949ECAB7A11E1F4E2383AB75C2EEC3 /* WYZTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3124F5F5DFD180EC65A8F760C1C4EBA /* WYZTestView.m */; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559810316E59641CF52D92DABEDB86B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		58017A1A95C8EF7F96A13D5B27876CE7 /* WYZTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAD3EA43CA01053BC005DC33BAC3813 /* WYZTestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58AF805046CFD9986EFEAACCBA61F9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		58D48E24858A60E472410D52E2F7240F /* Pods-WyzPodTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7165149D5107417F87760EB45660076 /* Pods-WyzPodTest_Example-dummy.m */; };
+		5D5AB502D85BF8E27246A5964F6B3E9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		7CE7CADDE90C6315BD42F11422F7EC70 /* WyzPodTest.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24AC89A78770B242E3C0736EC9D50C43 /* WyzPodTest.bundle */; };
+		83AF2DFA814DCC9E180C1121F09FD5E7 /* Pods-WyzPodTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80BD1F29C16BCA60800A6C955FEA3C11 /* Pods-WyzPodTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		86421B1E5966656B97F0F44CBF6498D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2D71E3AF47546AAEC6821A9D40F4AA3 /* Pods-WyzPodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E0F26B1BB2615B467347EF8AB0A05B /* Pods-WyzPodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9B0FC93208FCAC4A4B45797A1FBB688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D375AD9F1DA1595CDF5811ADE18B78ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DF86313C35FE3290B561535D1B111F42 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = F6732768999AA131ECDBC8B2A9CB1595 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		A4668C89603FC3099F2B6409A3F47975 /* WyzPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 717FA2A7DF2E5630AC1AA64AE344C0EE /* WyzPodTest-dummy.m */; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		BBDA654350C409F9552D9C11CF6FDC39 /* WyzPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7EE5A30B6A4FD48BB1901B3B6D7BB1 /* WyzPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		CA5B26C6A5E44CDC5CF654FF920AE98F /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = FE203CEE3434250F7B246A3E82D084DA /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D375AD9F1DA1595CDF5811ADE18B78ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F19A4F915666D8D19E9F493664C28C4F /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5075F9F0D9E270E0C82396931D5D45E8 /* PBXContainerItemProxy */ = {
+		19265A67165AB2864D5E4A9AB45F4DF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B032C536D636879A7AC5B82782A2F1C0;
-			remoteInfo = "Pods-WyzPodTest_Example";
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
-		D60D17FD06116E6A2DFC0A1FE0C69AE6 /* PBXContainerItemProxy */ = {
+		7BBFE354092B92BA7309B7C3D50629D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		98057A9410F8AEB4B309CA18F89DC135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F1F9C41563A52E7C4F6EF1812E40AF;
+			remoteInfo = "WyzPodTest-WyzPodTest";
+		};
+		B8F1533DFC07BA4078F84B1A550E79F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1332D7B2465279ABAB0A0DB9DDA89C99;
 			remoteInfo = WyzPodTest;
 		};
+		FBB9A9C9E5C3233C42C05AB9C29A4FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B032C536D636879A7AC5B82782A2F1C0;
+			remoteInfo = "Pods-WyzPodTest_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		05025820298F6392042F2CD0B304610D /* Pods-WyzPodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WyzPodTest_Tests.modulemap"; sourceTree = "<group>"; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		16BB97A1AA0F10932CA1A16101C92090 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1E7EE5A30B6A4FD48BB1901B3B6D7BB1 /* WyzPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyzPodTest-umbrella.h"; sourceTree = "<group>"; };
+		1F083471F603A61874522BAEBE118132 /* WyzPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WyzPodTest.modulemap; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AC89A78770B242E3C0736EC9D50C43 /* WyzPodTest.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WyzPodTest.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		39664BDF27BDE80D00AF8919 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WyzPodTest/Assets/Images.xcassets; sourceTree = "<group>"; };
+		3D23B29052FFC9B1C8DB833C86BCE1B4 /* WyzPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyzPodTest-prefix.pch"; sourceTree = "<group>"; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		3F23FD97B30E3E7A227229942FC095E6 /* Pods-WyzPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyzPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3F3605197A50C05FD8C4B80A5A760A6A /* TestLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestLog.h; path = WyzPodTest/Classes/TestLog.h; sourceTree = "<group>"; };
-		44C690CF25771CFA3D4C7C0212476C7A /* Pods_WyzPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WyzPodTest_Example.framework; path = "Pods-WyzPodTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA0638CF8D7295C1B808B16F9D192A2 /* WyzPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyzPodTest.debug.xcconfig; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		44C690CF25771CFA3D4C7C0212476C7A /* Pods_WyzPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyzPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		4D2C54981876630347859D8709419F4A /* Pods-WyzPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WyzPodTest_Example.modulemap"; sourceTree = "<group>"; };
-		5181A925CD100759A71F234B4DDECABC /* WyzPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyzPodTest-umbrella.h"; sourceTree = "<group>"; };
-		686296DBAFE737950C9C2BADEECA9084 /* WyzPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WyzPodTest.modulemap; sourceTree = "<group>"; };
-		6F6609A9FCD110F7D5B030D3E8140F9B /* WyzPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WyzPodTest-dummy.m"; sourceTree = "<group>"; };
+		5178857F3F534AFBF13595457BA92745 /* WyzPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyzPodTest.release.xcconfig; sourceTree = "<group>"; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		641AD0D4BC784B0F65125E18E0B2052C /* ResourceBundle-WyzPodTest-WyzPodTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WyzPodTest-WyzPodTest-Info.plist"; sourceTree = "<group>"; };
+		68F71FA7169C5B08922379C52882095F /* WyzPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyzPodTest.debug.xcconfig; sourceTree = "<group>"; };
+		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		6F6FC26767BC0D563CBF8971FDDB1EAC /* Pods-WyzPodTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyzPodTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		717FA2A7DF2E5630AC1AA64AE344C0EE /* WyzPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WyzPodTest-dummy.m"; sourceTree = "<group>"; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		775DC0FC0F118E4D3459ADF51FCF76E6 /* Pods-WyzPodTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WyzPodTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7DF36F16121C00408F333A40EEE4B86D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7ECF36D06484F7C73F3886C2951A8340 /* Pods-WyzPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WyzPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		80BD1F29C16BCA60800A6C955FEA3C11 /* Pods-WyzPodTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WyzPodTest_Example-umbrella.h"; sourceTree = "<group>"; };
-		8AC1EAC10AE6D3031409457D6AE35DAD /* TestLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestLog.m; path = WyzPodTest/Classes/TestLog.m; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8EAD3EA43CA01053BC005DC33BAC3813 /* WYZTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYZTestView.h; path = WyzPodTest/Classes/WYZTestView.h; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		92EE7A36FC499C83E4BDAD47969E28B7 /* Pods-WyzPodTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WyzPodTest_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4BDF166BBB7607E86EC83EB401F58CD /* Pods-WyzPodTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyzPodTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B22EE748679F8EF126B8E65FD240C42E /* Pods-WyzPodTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyzPodTest_Tests-Info.plist"; sourceTree = "<group>"; };
-		B9F321020BB13E440414C2020064431A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BFE05FF6C4C93443DAE9E14604435081 /* WyzPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WyzPodTest-prefix.pch"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		C0E0F26B1BB2615B467347EF8AB0A05B /* Pods-WyzPodTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WyzPodTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CA31AA62405404F42D81E3796BB05050 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CBE86AFCB6DCF26FD22C39D9115A7581 /* Pods-WyzPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyzPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D447DC624BC9BBB7319994551AEADAA1 /* WyzPodTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WyzPodTest-Info.plist"; sourceTree = "<group>"; };
+		D6C4210D954BB4FFA4D5081C2B3CD451 /* TestLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestLog.m; path = WyzPodTest/Classes/TestLog.m; sourceTree = "<group>"; };
 		D8CB13D6B887AAD510CF24F636B3E847 /* Pods-WyzPodTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WyzPodTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E2811983A789C2B8E7B405439EC182EA /* Pods_WyzPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WyzPodTest_Tests.framework; path = "Pods-WyzPodTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE19F07121A56969B1651560084C5444 /* WyzPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WyzPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E2811983A789C2B8E7B405439EC182EA /* Pods_WyzPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyzPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7165149D5107417F87760EB45660076 /* Pods-WyzPodTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WyzPodTest_Example-dummy.m"; sourceTree = "<group>"; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		E9523CA6B51079BA519B9F97626BBB06 /* Pods-WyzPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyzPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EAD44D9DB4023F249A99DE297C920AD6 /* WyzPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WyzPodTest.framework; path = WyzPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD44D9DB4023F249A99DE297C920AD6 /* WyzPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WyzPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EF447163DE3571292DCBEF1CF5CCA03E /* TestLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestLog.h; path = WyzPodTest/Classes/TestLog.h; sourceTree = "<group>"; };
 		F03FBB13A54A959A34986B516C34C71A /* Pods-WyzPodTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WyzPodTest_Example-Info.plist"; sourceTree = "<group>"; };
-		F26313BFB6A381AF49095F59FD4B488E /* WyzPodTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WyzPodTest-Info.plist"; sourceTree = "<group>"; };
-		F6732768999AA131ECDBC8B2A9CB1595 /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Header.h; path = WyzPodTest/Classes/Header.h; sourceTree = "<group>"; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		F3124F5F5DFD180EC65A8F760C1C4EBA /* WYZTestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYZTestView.m; path = WyzPodTest/Classes/WYZTestView.m; sourceTree = "<group>"; };
+		F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FA196C0F7489955165B3EF576B2CDABE /* Pods-WyzPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WyzPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FBD829935616836587C421ED050F8A5B /* WyzPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WyzPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FD26540358E9EA538A626A9CF75E1661 /* WyzPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WyzPodTest.release.xcconfig; sourceTree = "<group>"; };
+		FE203CEE3434250F7B246A3E82D084DA /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Header.h; path = WyzPodTest/Classes/Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		57728F59977C5915B08190CD717B9717 /* Frameworks */ = {
+		3FF5F44B33D7D97D1FF4FA8718725D66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192CB34C8B7F89C505EDD610A35B1DE2 /* Foundation.framework in Frameworks */,
+				559810316E59641CF52D92DABEDB86B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A83C150C099C505D6BF7B458609BD805 /* Frameworks */ = {
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B0FC93208FCAC4A4B45797A1FBB688 /* Foundation.framework in Frameworks */,
+				58AF805046CFD9986EFEAACCBA61F9BE /* Foundation.framework in Frameworks */,
+				5D5AB502D85BF8E27246A5964F6B3E9F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BF7A2F91CEB9FBD74E34C2E9DB5BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EBB5CECAF47763F993DEB2C5AAEC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86421B1E5966656B97F0F44CBF6498D4 /* Foundation.framework in Frameworks */,
+				F19A4F915666D8D19E9F493664C28C4F /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +216,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		1E579F302B9AA63B78C25C385E4513C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				641AD0D4BC784B0F65125E18E0B2052C /* ResourceBundle-WyzPodTest-WyzPodTest-Info.plist */,
+				1F083471F603A61874522BAEBE118132 /* WyzPodTest.modulemap */,
+				717FA2A7DF2E5630AC1AA64AE344C0EE /* WyzPodTest-dummy.m */,
+				D447DC624BC9BBB7319994551AEADAA1 /* WyzPodTest-Info.plist */,
+				3D23B29052FFC9B1C8DB833C86BCE1B4 /* WyzPodTest-prefix.pch */,
+				1E7EE5A30B6A4FD48BB1901B3B6D7BB1 /* WyzPodTest-umbrella.h */,
+				68F71FA7169C5B08922379C52882095F /* WyzPodTest.debug.xcconfig */,
+				5178857F3F534AFBF13595457BA92745 /* WyzPodTest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WyzPodTest";
+			sourceTree = "<group>";
+		};
+		2DC6F296274A3691D6DD0E37CD203836 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F634331CFB0873D0BA20992D30DBD3A /* WyzPodTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		480DE3BF2E3D39D5D59D66BE8A428223 /* Pods-WyzPodTest_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,45 +290,47 @@
 			path = "Target Support Files/Pods-WyzPodTest_Example";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8346C203673716BF5690BC1DF46B9D3B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA31AA62405404F42D81E3796BB05050 /* LICENSE */,
+				16BB97A1AA0F10932CA1A16101C92090 /* README.md */,
+				DE19F07121A56969B1651560084C5444 /* WyzPodTest.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8B9B1AC85CD951F73580B2776B7EA31B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFE446476C51FAE0ACFF4FBB24E50A65 /* Foundation.framework */,
+				F3CF773651727D50CDFC96D527CE18A6 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9F865330F54956A252784B7AD4A78894 /* Products */ = {
+		9F634331CFB0873D0BA20992D30DBD3A /* WyzPodTest */ = {
 			isa = PBXGroup;
 			children = (
-				44C690CF25771CFA3D4C7C0212476C7A /* Pods_WyzPodTest_Example.framework */,
-				E2811983A789C2B8E7B405439EC182EA /* Pods_WyzPodTest_Tests.framework */,
-				EAD44D9DB4023F249A99DE297C920AD6 /* WyzPodTest.framework */,
+				FE203CEE3434250F7B246A3E82D084DA /* Header.h */,
+				EF447163DE3571292DCBEF1CF5CCA03E /* TestLog.h */,
+				D6C4210D954BB4FFA4D5081C2B3CD451 /* TestLog.m */,
+				8EAD3EA43CA01053BC005DC33BAC3813 /* WYZTestView.h */,
+				F3124F5F5DFD180EC65A8F760C1C4EBA /* WYZTestView.m */,
+				39664BDF27BDE80D00AF8919 /* Images.xcassets */,
+				8346C203673716BF5690BC1DF46B9D3B /* Pod */,
+				1E579F302B9AA63B78C25C385E4513C4 /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A26D6270ED6ACD5C2CEAE613E1227F37 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				686296DBAFE737950C9C2BADEECA9084 /* WyzPodTest.modulemap */,
-				6F6609A9FCD110F7D5B030D3E8140F9B /* WyzPodTest-dummy.m */,
-				F26313BFB6A381AF49095F59FD4B488E /* WyzPodTest-Info.plist */,
-				BFE05FF6C4C93443DAE9E14604435081 /* WyzPodTest-prefix.pch */,
-				5181A925CD100759A71F234B4DDECABC /* WyzPodTest-umbrella.h */,
-				4AA0638CF8D7295C1B808B16F9D192A2 /* WyzPodTest.debug.xcconfig */,
-				FD26540358E9EA538A626A9CF75E1661 /* WyzPodTest.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WyzPodTest";
-			sourceTree = "<group>";
-		};
-		A7D513B66577856B5185917EA0EE5E1B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B654CEBB556144A593A2F0F65FDEF390 /* WyzPodTest */,
-			);
-			name = "Development Pods";
+			name = WyzPodTest;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AC5737B7652D74AF8B0546F28BE729A0 /* Targets Support Files */ = {
@@ -169,19 +340,6 @@
 				B6CB3CAA618CA946423D39F35D5797D5 /* Pods-WyzPodTest_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B654CEBB556144A593A2F0F65FDEF390 /* WyzPodTest */ = {
-			isa = PBXGroup;
-			children = (
-				F6732768999AA131ECDBC8B2A9CB1595 /* Header.h */,
-				3F3605197A50C05FD8C4B80A5A760A6A /* TestLog.h */,
-				8AC1EAC10AE6D3031409457D6AE35DAD /* TestLog.m */,
-				E6223F839F9B9F587A95E3796026A6C3 /* Pod */,
-				A26D6270ED6ACD5C2CEAE613E1227F37 /* Support Files */,
-			);
-			name = WyzPodTest;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B6CB3CAA618CA946423D39F35D5797D5 /* Pods-WyzPodTest_Tests */ = {
@@ -200,33 +358,52 @@
 			path = "Target Support Files/Pods-WyzPodTest_Tests";
 			sourceTree = "<group>";
 		};
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		C8EE57B22BB3E9A0BB46E8F8D1685064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				44C690CF25771CFA3D4C7C0212476C7A /* Pods_WyzPodTest_Example.framework */,
+				E2811983A789C2B8E7B405439EC182EA /* Pods_WyzPodTest_Tests.framework */,
+				24AC89A78770B242E3C0736EC9D50C43 /* WyzPodTest.bundle */,
+				EAD44D9DB4023F249A99DE297C920AD6 /* WyzPodTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A7D513B66577856B5185917EA0EE5E1B /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9F865330F54956A252784B7AD4A78894 /* Products */,
+				2DC6F296274A3691D6DD0E37CD203836 /* Development Pods */,
+				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				C8EE57B22BB3E9A0BB46E8F8D1685064 /* Products */,
 				AC5737B7652D74AF8B0546F28BE729A0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */,
+				8B9B1AC85CD951F73580B2776B7EA31B /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E6223F839F9B9F587A95E3796026A6C3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B9F321020BB13E440414C2020064431A /* LICENSE */,
-				7DF36F16121C00408F333A40EEE4B86D /* README.md */,
-				FBD829935616836587C421ED050F8A5B /* WyzPodTest.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,21 +417,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30322DD5CA295909484D90DCD68A906C /* Headers */ = {
+		6C16B49AF8115416368CD898F13E1101 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7082499CDFF5F41144E8B4465733BDD9 /* Pods-WyzPodTest_Example-umbrella.h in Headers */,
+				83AF2DFA814DCC9E180C1121F09FD5E7 /* Pods-WyzPodTest_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB73DFE99EE716F2DB81981ABFE6E16E /* Headers */ = {
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF86313C35FE3290B561535D1B111F42 /* Header.h in Headers */,
-				6D6B5C78D90BBEDFE11560AF585451F9 /* TestLog.h in Headers */,
-				2CCB56C4E911B9CF0DAB44DFC32D3FCB /* WyzPodTest-umbrella.h in Headers */,
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B109F35C7ED8F5D1193851AF42909D12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5B26C6A5E44CDC5CF654FF920AE98F /* Header.h in Headers */,
+				37DB85787C014B2DD7CE7DC3D7CCF475 /* TestLog.h in Headers */,
+				BBDA654350C409F9552D9C11CF6FDC39 /* WyzPodTest-umbrella.h in Headers */,
+				58017A1A95C8EF7F96A13D5B27876CE7 /* WYZTestView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,16 +464,18 @@
 /* Begin PBXNativeTarget section */
 		1332D7B2465279ABAB0A0DB9DDA89C99 /* WyzPodTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5652FB959EC99C73EED2A727A732671 /* Build configuration list for PBXNativeTarget "WyzPodTest" */;
+			buildConfigurationList = 7FE2B5D0D34552EAB2B1C23BEB00BCEC /* Build configuration list for PBXNativeTarget "WyzPodTest" */;
 			buildPhases = (
-				CB73DFE99EE716F2DB81981ABFE6E16E /* Headers */,
-				99619DEB0FB096B6DF87D7E2A1778AB3 /* Sources */,
-				A83C150C099C505D6BF7B458609BD805 /* Frameworks */,
-				2CD90B5D0629364AA8366F945567B022 /* Resources */,
+				B109F35C7ED8F5D1193851AF42909D12 /* Headers */,
+				AF7AA16A61A14CD0A483A60C5940F0D5 /* Sources */,
+				92EBB5CECAF47763F993DEB2C5AAEC47 /* Frameworks */,
+				3F92C34CDF71DB43D1979B08BA965133 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				35F59D76C73D4F2F047D019AEF2696A5 /* PBXTargetDependency */,
+				E6B8F6AFB49103DB3110A0F1C57FE3C9 /* PBXTargetDependency */,
 			);
 			name = WyzPodTest;
 			productName = WyzPodTest;
@@ -291,31 +494,67 @@
 			buildRules = (
 			);
 			dependencies = (
-				781EA1ED912D9C67ECDDA7A415DC7C5A /* PBXTargetDependency */,
+				EA6CF8DB1A7A4A8BF200B402F1194D80 /* PBXTargetDependency */,
 			);
 			name = "Pods-WyzPodTest_Tests";
 			productName = "Pods-WyzPodTest_Tests";
 			productReference = E2811983A789C2B8E7B405439EC182EA /* Pods_WyzPodTest_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B032C536D636879A7AC5B82782A2F1C0 /* Pods-WyzPodTest_Example */ = {
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EA535BAFB66F606D66D26DD32632C70 /* Build configuration list for PBXNativeTarget "Pods-WyzPodTest_Example" */;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				30322DD5CA295909484D90DCD68A906C /* Headers */,
-				707265DDB41F0D2660D6ABB89FC79FF3 /* Sources */,
-				57728F59977C5915B08190CD717B9717 /* Frameworks */,
-				9B0FC0EE7A7FD2E2B2645454B1F2E452 /* Resources */,
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C332C9678D718A1D75142B105BE5F7EA /* PBXTargetDependency */,
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B032C536D636879A7AC5B82782A2F1C0 /* Pods-WyzPodTest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B00119DDDE683C28DE51556D00C03 /* Build configuration list for PBXNativeTarget "Pods-WyzPodTest_Example" */;
+			buildPhases = (
+				6C16B49AF8115416368CD898F13E1101 /* Headers */,
+				1A43E1D0D5526C2C2C9FFD5B3391CB65 /* Sources */,
+				3FF5F44B33D7D97D1FF4FA8718725D66 /* Frameworks */,
+				BA23779D71C765B1B7E000A9366FCED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD80EDAB25BE5A381800C5CD8C632B9 /* PBXTargetDependency */,
+				90983475AC7940337732DEB5B876A83E /* PBXTargetDependency */,
 			);
 			name = "Pods-WyzPodTest_Example";
 			productName = "Pods-WyzPodTest_Example";
 			productReference = 44C690CF25771CFA3D4C7C0212476C7A /* Pods_WyzPodTest_Example.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		D5F1F9C41563A52E7C4F6EF1812E40AF /* WyzPodTest-WyzPodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F7F88D2D69C0F76606D7600E299E24 /* Build configuration list for PBXNativeTarget "WyzPodTest-WyzPodTest" */;
+			buildPhases = (
+				520214180FC8667D6AE087886BA8AF6B /* Sources */,
+				61BF7A2F91CEB9FBD74E34C2E9DB5BD3 /* Frameworks */,
+				5B84CEC1C28C7F9DFBC0811D9A12DED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WyzPodTest-WyzPodTest";
+			productName = "WyzPodTest-WyzPodTest";
+			productReference = 24AC89A78770B242E3C0736EC9D50C43 /* WyzPodTest.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -335,25 +574,20 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9F865330F54956A252784B7AD4A78894 /* Products */;
+			productRefGroup = C8EE57B22BB3E9A0BB46E8F8D1685064 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				B032C536D636879A7AC5B82782A2F1C0 /* Pods-WyzPodTest_Example */,
 				2BD35FB59A86AF63AF2EBF279AC1DCF0 /* Pods-WyzPodTest_Tests */,
 				1332D7B2465279ABAB0A0DB9DDA89C99 /* WyzPodTest */,
+				D5F1F9C41563A52E7C4F6EF1812E40AF /* WyzPodTest-WyzPodTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CD90B5D0629364AA8366F945567B022 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3A7DAFC70FA6F5FE6EE2A496A35D7FC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,7 +595,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B0FC0EE7A7FD2E2B2645454B1F2E452 /* Resources */ = {
+		3F92C34CDF71DB43D1979B08BA965133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE7CADDE90C6315BD42F11422F7EC70 /* WyzPodTest.bundle in Resources */,
+				39664BE027BDE80D00AF8919 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B84CEC1C28C7F9DFBC0811D9A12DED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA23779D71C765B1B7E000A9366FCED4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,11 +628,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		707265DDB41F0D2660D6ABB89FC79FF3 /* Sources */ = {
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A37DAFAD04D68AAC77DE99DEC9FF9BB /* Pods-WyzPodTest_Example-dummy.m in Sources */,
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A43E1D0D5526C2C2C9FFD5B3391CB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D48E24858A60E472410D52E2F7240F /* Pods-WyzPodTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520214180FC8667D6AE087886BA8AF6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,29 +669,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99619DEB0FB096B6DF87D7E2A1778AB3 /* Sources */ = {
+		AF7AA16A61A14CD0A483A60C5940F0D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2207D90E5F4D7278CFC350CD719BAE08 /* TestLog.m in Sources */,
-				064A75D3B340733E5657C74FE6125D3E /* WyzPodTest-dummy.m in Sources */,
+				114D645E02351D9604864B9EFA5EACA3 /* TestLog.m in Sources */,
+				A4668C89603FC3099F2B6409A3F47975 /* WyzPodTest-dummy.m in Sources */,
+				48949ECAB7A11E1F4E2383AB75C2EEC3 /* WYZTestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		781EA1ED912D9C67ECDDA7A415DC7C5A /* PBXTargetDependency */ = {
+		2FD80EDAB25BE5A381800C5CD8C632B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-WyzPodTest_Example";
-			target = B032C536D636879A7AC5B82782A2F1C0 /* Pods-WyzPodTest_Example */;
-			targetProxy = 5075F9F0D9E270E0C82396931D5D45E8 /* PBXContainerItemProxy */;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 19265A67165AB2864D5E4A9AB45F4DF0 /* PBXContainerItemProxy */;
 		};
-		C332C9678D718A1D75142B105BE5F7EA /* PBXTargetDependency */ = {
+		35F59D76C73D4F2F047D019AEF2696A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 7BBFE354092B92BA7309B7C3D50629D3 /* PBXContainerItemProxy */;
+		};
+		90983475AC7940337732DEB5B876A83E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WyzPodTest;
 			target = 1332D7B2465279ABAB0A0DB9DDA89C99 /* WyzPodTest */;
-			targetProxy = D60D17FD06116E6A2DFC0A1FE0C69AE6 /* PBXContainerItemProxy */;
+			targetProxy = B8F1533DFC07BA4078F84B1A550E79F0 /* PBXContainerItemProxy */;
+		};
+		E6B8F6AFB49103DB3110A0F1C57FE3C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WyzPodTest-WyzPodTest";
+			target = D5F1F9C41563A52E7C4F6EF1812E40AF /* WyzPodTest-WyzPodTest */;
+			targetProxy = 98057A9410F8AEB4B309CA18F89DC135 /* PBXContainerItemProxy */;
+		};
+		EA6CF8DB1A7A4A8BF200B402F1194D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WyzPodTest_Example";
+			target = B032C536D636879A7AC5B82782A2F1C0 /* Pods-WyzPodTest_Example */;
+			targetProxy = FBB9A9C9E5C3233C42C05AB9C29A4FC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,10 +814,11 @@
 			};
 			name = Release;
 		};
-		662715E5B0298B6F39B7418BF2E8A252 /* Release */ = {
+		2E1B7BC9787A170A9A08342A848CCD64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD26540358E9EA538A626A9CF75E1661 /* WyzPodTest.release.xcconfig */;
+			baseConfigurationReference = FA196C0F7489955165B3EF576B2CDABE /* Pods-WyzPodTest_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -525,26 +827,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WyzPodTest/WyzPodTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WyzPodTest/WyzPodTest-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WyzPodTest/WyzPodTest.modulemap";
-				PRODUCT_MODULE_NAME = WyzPodTest;
-				PRODUCT_NAME = WyzPodTest;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		9CBEFCB105E569C784E5111B3A309B66 /* Release */ = {
+		329129C99A15F4F2FBED5E485448EF66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9523CA6B51079BA519B9F97626BBB06 /* Pods-WyzPodTest_Example.release.xcconfig */;
 			buildSettings = {
@@ -577,9 +879,9 @@
 			};
 			name = Release;
 		};
-		A8FF0FEAE5B4748479DBA7021B33DC4D /* Debug */ = {
+		46BD3477B91A202AC341A0339A1142A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AA0638CF8D7295C1B808B16F9D192A2 /* WyzPodTest.debug.xcconfig */;
+			baseConfigurationReference = 5178857F3F534AFBF13595457BA92745 /* WyzPodTest.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -602,42 +904,43 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		C2F49F5593A4F06A435CF7D4E7FEA9BC /* Debug */ = {
+		5F1F63089DC4CAEFCB52F289C5F798C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA196C0F7489955165B3EF576B2CDABE /* Pods-WyzPodTest_Example.debug.xcconfig */;
+			baseConfigurationReference = 68F71FA7169C5B08922379C52882095F /* WyzPodTest.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WyzPodTest";
+				IBSC_MODULE = WyzPodTest;
+				INFOPLIST_FILE = "Target Support Files/WyzPodTest/ResourceBundle-WyzPodTest-WyzPodTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = WyzPodTest;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		85A8970A8F0D5C8220DD9ACF569C7E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5178857F3F534AFBF13595457BA92745 /* WyzPodTest.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WyzPodTest";
+				IBSC_MODULE = WyzPodTest;
+				INFOPLIST_FILE = "Target Support Files/WyzPodTest/ResourceBundle-WyzPodTest-WyzPodTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = WyzPodTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -694,12 +997,102 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		D1069AD30DBCEA2D770B354EA57FC7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5C01377F5AA70F4909182EFC0E39769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F71FA7169C5B08922379C52882095F /* WyzPodTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WyzPodTest/WyzPodTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WyzPodTest/WyzPodTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WyzPodTest/WyzPodTest.modulemap";
+				PRODUCT_MODULE_NAME = WyzPodTest;
+				PRODUCT_NAME = WyzPodTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9B0CF34850B8E75A55EE69CDD77B49C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FC3F9C3EFF910104BCF2BC5BDB463146 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -745,6 +1138,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		231B00119DDDE683C28DE51556D00C03 /* Build configuration list for PBXNativeTarget "Pods-WyzPodTest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E1B7BC9787A170A9A08342A848CCD64 /* Debug */,
+				329129C99A15F4F2FBED5E485448EF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -754,20 +1156,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EA535BAFB66F606D66D26DD32632C70 /* Build configuration list for PBXNativeTarget "Pods-WyzPodTest_Example" */ = {
+		7FE2B5D0D34552EAB2B1C23BEB00BCEC /* Build configuration list for PBXNativeTarget "WyzPodTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2F49F5593A4F06A435CF7D4E7FEA9BC /* Debug */,
-				9CBEFCB105E569C784E5111B3A309B66 /* Release */,
+				D5C01377F5AA70F4909182EFC0E39769 /* Debug */,
+				46BD3477B91A202AC341A0339A1142A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5652FB959EC99C73EED2A727A732671 /* Build configuration list for PBXNativeTarget "WyzPodTest" */ = {
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8FF0FEAE5B4748479DBA7021B33DC4D /* Debug */,
-				662715E5B0298B6F39B7418BF2E8A252 /* Release */,
+				E9B0CF34850B8E75A55EE69CDD77B49C /* Debug */,
+				D1069AD30DBCEA2D770B354EA57FC7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F7F88D2D69C0F76606D7600E299E24 /* Build configuration list for PBXNativeTarget "WyzPodTest-WyzPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1F63089DC4CAEFCB52F289C5F798C0 /* Debug */,
+				85A8970A8F0D5C8220DD9ACF569C7E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

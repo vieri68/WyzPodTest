@@ -10,10 +10,3 @@
 #endif
 #endif
 
-#import "Header.h"
-#import "TestLog.h"
-#import "WYZTestView.h"
-
-FOUNDATION_EXPORT double WyzPodTestVersionNumber;
-FOUNDATION_EXPORT const unsigned char WyzPodTestVersionString[];
-
