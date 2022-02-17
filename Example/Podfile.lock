@@ -1,7 +1,11 @@
 PODS:
   - Masonry (1.1.0)
-  - WyzPodTest (1.0.1):
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
+  - WyzPodTest (1.0.3):
     - Masonry
+    - SDWebImage (~> 5.0)
 
 DEPENDENCIES:
   - WyzPodTest (from `../`)
@@ -9,6 +13,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Masonry
+    - SDWebImage
 
 EXTERNAL SOURCES:
   WyzPodTest:
@@ -16,8 +21,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  WyzPodTest: c9f17e0ce0a24ca0681995497ced0feb55b59ced
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
+  WyzPodTest: 920030aad58b9855c1cb8478f638b2fa3c4c870c
 
-PODFILE CHECKSUM: 4ef242eb0994639b6e4aef02ba02d5f82d942824
+PODFILE CHECKSUM: c4f15bdb3e940808bf409f7dbfa6fc602ac95f5a
 
 COCOAPODS: 1.10.0

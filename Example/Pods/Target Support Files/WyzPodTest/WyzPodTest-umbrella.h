@@ -12,7 +12,9 @@
 
 #import "Header.h"
 #import "TestLog.h"
+#import "UIView+WYZAdd.h"
 #import "WYZTestView.h"
+#import "WYZTestViewWithXIB.h"
 
 FOUNDATION_EXPORT double WyzPodTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char WyzPodTestVersionString[];

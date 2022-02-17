@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55A6808C82239E3B58887258 /* Pods_WyzPodTest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65944C78D67C2393A17A20B /* Pods_WyzPodTest_Tests.framework */; };
+		358B436C611B384D91667CA5 /* libPods-WyzPodTest_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D97579628FAAD2B51BD2E273 /* libPods-WyzPodTest_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E077DA8C2130D3D2FDF235E4 /* Pods_WyzPodTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE950AAA1659969032CBA77 /* Pods_WyzPodTest_Example.framework */; };
+		F14712A5A3210B0B4AC572F6 /* libPods-WyzPodTest_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A51A46F7813A5D155CAB09 /* libPods-WyzPodTest_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		09DE63BC1D279FA76856CBCC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		09FD6F28DD0AE38A1809A61C /* Pods-WyzPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyzPodTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-WyzPodTest_Tests/Pods-WyzPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0BE950AAA1659969032CBA77 /* Pods_WyzPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyzPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CE3B2FD3F90D5A2E790DD9 /* Pods-WyzPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyzPodTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WyzPodTest_Tests/Pods-WyzPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		49EB802E946EDF44E4E97018 /* Pods-WyzPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyzPodTest_Example.release.xcconfig"; path = "Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5BF87E0E56ACF771D2BB389F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -66,7 +65,8 @@
 		74F843D5CB5D8D77813C705D /* Pods-WyzPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyzPodTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7F6529692C86C9A632EEF814 /* WyzPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WyzPodTest.podspec; path = ../WyzPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D65944C78D67C2393A17A20B /* Pods_WyzPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyzPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97579628FAAD2B51BD2E273 /* libPods-WyzPodTest_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WyzPodTest_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A51A46F7813A5D155CAB09 /* libPods-WyzPodTest_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WyzPodTest_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E077DA8C2130D3D2FDF235E4 /* Pods_WyzPodTest_Example.framework in Frameworks */,
+				358B436C611B384D91667CA5 /* libPods-WyzPodTest_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				55A6808C82239E3B58887258 /* Pods_WyzPodTest_Tests.framework in Frameworks */,
+				F14712A5A3210B0B4AC572F6 /* libPods-WyzPodTest_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0BE950AAA1659969032CBA77 /* Pods_WyzPodTest_Example.framework */,
-				D65944C78D67C2393A17A20B /* Pods_WyzPodTest_Tests.framework */,
+				D97579628FAAD2B51BD2E273 /* libPods-WyzPodTest_Example.a */,
+				E7A51A46F7813A5D155CAB09 /* libPods-WyzPodTest_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E10289E137A0CFE566D62FEF /* [CP] Embed Pods Frameworks */,
+				9F28578812AED90510B80952 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,24 +339,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E10289E137A0CFE566D62FEF /* [CP] Embed Pods Frameworks */ = {
+		9F28578812AED90510B80952 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/WyzPodTest/WyzPodTest.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/WyzPodTest/WyzPodTestRes.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WyzPodTest.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WyzPodTestRes.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WyzPodTest_Example/Pods-WyzPodTest_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

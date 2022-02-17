@@ -41,7 +41,10 @@
 #pragma mark - Public
 - (void)showLocalImage {
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    _imageView.image = [UIImage imageNamed:@"bigImage1" inBundle:bundle compatibleWithTraitCollection:nil];
+    NSURL *url = [bundle URLForResource:@"WyzPodTestRes" withExtension:@"bundle"];
+    if(!url) return;
+    NSBundle *imageBundle = [NSBundle bundleWithURL:url];
+    _imageView.image = [UIImage imageNamed:@"bigImage1" inBundle:imageBundle compatibleWithTraitCollection:nil];
 }
 
 /*

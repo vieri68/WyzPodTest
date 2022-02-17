@@ -1,6 +1,6 @@
 {
   "name": "WyzPodTest",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "summary": "一个简单的测试自建pod的项目.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/vieri68/WyzPodTest",
@@ -13,19 +13,22 @@
   },
   "source": {
     "git": "https://github.com/vieri68/WyzPodTest.git",
-    "tag": "1.0.1"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "WyzPodTest/Classes/**/*",
   "resource_bundles": {
-    "WyzPodTest": [
-      "WyzPodTest/Assets/*.png"
+    "WyzPodTestRes": [
+      "WyzPodTest/Assets/*"
     ]
   },
   "public_header_files": "Pod/Classes/Header.h",
   "dependencies": {
+    "SDWebImage": [
+      "~> 5.0"
+    ],
     "Masonry": [
 
     ]

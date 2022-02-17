@@ -9,6 +9,8 @@
 #define Header_h
 
 #import "TestLog.h"
-
+#import "WYZTestView.h"
+#import "WYZTestViewWithXIB.h"
+#import "UIView+WYZAdd.h"
 
 #endif /* Header_h */

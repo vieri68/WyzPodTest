@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WyzPodTest'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = '一个简单的测试自建pod的项目.'
 
 # This description is used to generate tags and improve search results.
@@ -33,11 +33,11 @@ TODO: Add long description of the pod here.
   s.source_files = 'WyzPodTest/Classes/**/*'
   
   s.resource_bundles = {
-      'WyzPodTestRes' => ['WyzPodTest/Assets/*.png']
+      'WyzPodTestRes' => ['WyzPodTest/Assets/*']
   }
 
   s.public_header_files = 'Pod/Classes/Header.h'
   # s.frameworks = 'UIKit', 'MapKit'
-#  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SDWebImage', '~> 5.0'
   s.dependency 'Masonry'
 end
